@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Cordel</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+            color:  white;
+            background-color: black;
+        }
+         p > a {
+            color: white;
+            text-decoration: none;
+        }
+        p > a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            background-color: white;
+        }
+
+        article.txt-branco {
+            width: 100vw;
+
+            text-align: justify;
+        }
+        article > p {
+        }
+
+        .b-foto {
+            width: 100vw;
+            background-color: transparent;
+            background-image: url(img/background001.jpg);
+        }
+
+        article#img2 {
+            background-image: url(img/background002.jpg);
+        }
+
+        footer {
+            width: 100vw;
+            padding: 5px;
+
+            position: fixed;
+            bottom: 0;
+
+            text-align: center;
+            color: white;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cordel Moderno</h1>
+        <p>Por <a href="http://www.recantodasletras.com.br/poesias/3186743" target="_blank" rel="noopener noreferrer">Milton Duarte</a></p>
+    </header>
+        <section id="container">
+            <article class="txt-branco">
+                <p>Estou ficando cansado
+                    Da tal tecnologia
+                    Só se fala por e-mail
+                    Mensagem curta e fria
+                    Twitter e Facebook
+                    Antes que eu caduque
+                    Vou dizer tudo em poesia.</p>
+            </article>
+
+            <section class="b-foto">
+                <article id="img1" class="txt-img">
+                    <p>Não é mais como era antes
+                        É tudo abreviado
+                        "Você" só tem duas letras
+                        O "O" e o "E" foi riscado
+                        Para declarar o amor
+                        Basta botar uma flor
+                        E um coração desenhado.</p>
+                </article>
+            </section>
+
+            <article class="txt-branco">
+                <p>Arroba agora não pesa
+                    É parte de um endereço
+                    Ponto final nem se usa
+                    Ou vai até no começo
+                    Agora é .com
+                    Se o saite é muito bom
+                    Ele vale um alto preço.</p>
+
+                <p>
+                Pra piorar a liguagem
+                O emoticom é um risco
+                    Tem símbolo para tudo
+                    Ponto e vírgula e um asterisco
+                    Um beijo significa
+                    Pra entender como fica
+                    Decifre esse rabisco.
+                </p>
+            </article>
+
+            <article id="img2" class="txt-img">
+                <p>Tenho saudade das cartas
+                Escritas com a própria mão
+                Mandava no mês de Junho
+                Só chegava no Verão
+                Mas matava a saudade
+                Era texto de verdade
+                Nas linhas do coração.
+                </p>
+            </article>
+        </section>
+
+    <footer>
+        <p>Site criado por <a href="">Gustavo Guanabara</a> para o <a href="">CursoemVideo</a></p>
+    </footer>
+</body>
+</html>
