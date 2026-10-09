@@ -28,6 +28,7 @@ header {
     text-align: center;
     background-color: black;
 }
+
 header h1 {
     padding-top: 50px;
     font-size: 10vw;
@@ -44,6 +45,7 @@ a {
     font-weight: bold;
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: underline;
 } 
@@ -54,22 +56,27 @@ section {
 
     line-height: 3.5vw;
 }
-section.fundoB {
-  
+
+section.fundo-foto {
+  box-shadow: inset 5px 5px 13px 0px rgba(0, 0, 0, 0.473)
+}
+
+section > p {
+  padding-bottom: 2em;
 }
 
 section.fundo-foto > p {
-    display: inline-block;
-    padding: 5px;
-    background-color: rgba(141, 23, 23, 0.589);
-
+  display: inline-block;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.514);
 }
+
 .txt {
 
   font-family: var(--fonte3);
-  background-color: rgba(0, 0, 0, 0.589);
 
 }
+
 .txt p {
     margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -78,11 +85,13 @@ section.fundo-foto > p {
 section#foto1 {
   width: 100vw;
   height: auto;
+  color: white;
   background-size: cover;
-  background: black url(img/background001.jpg) right top no-repeat fixed;
+  background: black url(img/background001.jpg) right center no-repeat fixed;
 }
 section#foto2 {
   width: 100vw;
+  color: white;
   background-size: cover;
   background: black url(img/background002.jpg) center no-repeat fixed;
 }
