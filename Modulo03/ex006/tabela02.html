@@ -17,11 +17,24 @@
             font-weight: bold;
             background-color: lightgray;
         }
+        thead {
+            position: relative;
+        }
         th, td {
             padding: 10px;
             border: 1px solid black;
         }
 
+        tbody > tr:nth-child(2n) {
+            background-color: lightgrey;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+
+            background-color: gray;
+        }
         thead, tfoot {
             color: white;
             background-color: gray;
