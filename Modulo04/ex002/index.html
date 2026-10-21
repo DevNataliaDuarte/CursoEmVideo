@@ -1,14 +1,45 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>iframe</title>
-</head>
-<body>
-    <h1>Teste</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem quas qui natus facilis voluptas aut quaerat impedit quae. Eveniet praesentium aliquid voluptas eos rerum fugiat quas dolores maxime quibusdam autem.</p>
-    <h2>Teste</h2>
-    <iframe src="page02.html" frameborder="0"></iframe>
-</body>
+    <style>
+      body {
+        background-color: rgba(0, 0, 0, 0.505);
+      }
+      main {
+        width: 80vw;
+        margin: auto;
+
+        text-align: center;
+        background-color: white;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.505);
+
+      }
+
+      iframe {
+        width: 60vw;
+        height: 450px;
+
+        border: 1px solid black;
+        border-radius: 3px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.505);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Teste</h1>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem quas
+        qui natus facilis voluptas aut quaerat impedit quae. Eveniet praesentium
+        aliquid voluptas eos rerum fugiat quas dolores maxime quibusdam autem.
+      </p>
+      <h2>Teste</h2>
+      <iframe src="page02.html" frameborder="0"></iframe>
+      <h2>teste tabela</h2>
+      <iframe src="../ex002/tabela06.html" frameborder="0"></iframe>
+    </main>
+  </body>
 </html>
