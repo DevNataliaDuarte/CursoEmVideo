@@ -46,27 +46,28 @@ iframe#idtela {
 }
 
 ul {
-    position: absolute;
-    top: 1%;
-    right: 2%;
+    text-align: end;
+    padding: 20px 10px;
 
     list-style: none;
 }
 
-
+li {
+    padding: 5px;
+}
 img {
     width: 40px;
     height: 40px;
-
     
-
+    box-sizing: border-box;
     border-radius: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.678);
 }
 
 img:hover {
-    width: 45px;
-    height: 45px;
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.678);
-    transition: 2ms;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.678);
+    transform: translate(-4px, -5px);
+    transition: transform .3s, border .3s;
 }
 
